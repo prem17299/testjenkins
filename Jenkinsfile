@@ -35,7 +35,7 @@ pipeline {
             steps {
 
                 bat "mvn -Dmaven.test.failure.ignore=true package"
-                sh "pwd"
+                
 
             }
 
